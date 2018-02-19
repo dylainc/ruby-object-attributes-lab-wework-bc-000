@@ -1,7 +1,7 @@
 
 class Dog
 
-  initialize(dog_name)
+  def initialize(dog_name)
     @this_dogs_name = dog_name
   end
 
@@ -15,7 +15,7 @@ class Dog
 
 
 
-  initialize(dog_breed)
+  def initialize(dog_breed)
     @this_dogs_breed = dog_breed
   end
 
